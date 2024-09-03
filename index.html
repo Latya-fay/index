@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fay's Bakery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: black;
+        margin: 0;
+        padding: 0;
+        border: 10px solid green;
+      }
+
+      #header {
+        background-color: darkmagenta;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+      }
+
+      #header-title {
+        margin: 0;
+      }
+
+      #navbar {
+        text-align: center;
+        margin-bottom: 2em;
+        background-color: palevioletred;
+        padding: 1em 0;
+      }
+
+      .active {
+        color: black;
+      }
+
+      .nav-link {
+        margin: 0 15px;
+        text-decoration: none;
+        color: darkmagenta;
+        font-weight: bold;
+      }
+
+      .nav-link:hover {
+        text-decoration: underline;
+      }
+
+      #main-content {
+        padding: 2em;
+      }
+
+      .article {
+        margin-bottom: 2em;
+        border-bottom: 2px solid palevioletred;
+        padding-bottom: 1em;
+      }
+
+      .article-title {
+        color: black;
+      }
+
+      .special-offer {
+        background-color: palevioletred;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+
+      #footer {
+        background-color: palevioletred;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header id="header">
+      <h1 id="header-title">Welcome to Fay's Bakery!</h1>
+      <p id="header-tagline">Your one-stop shop for delicious treats</p>
+    </header>
+
+    <!-- Navigation section -->
+    <nav id="navbar">
+      <a href="#about" class="nav-link active" style="color: pink">About Us</a>
+      <a href="#menu" class="nav-link active">Menu</a>
+      <a href="#contact" class="active nav-link">Contact</a>
+    </nav>
+
+    <!-- Main content section -->
+    <main id="main-content">
+      <!-- About Us article -->
+      <article id="about" class="article">
+        <h2 class="article-title">About Us</h2>
+        <p>
+          Fay's Bakery is a family-owned business that has been serving the
+          community with freshly baked goods for over 20 years. We pride
+          ourselves on using only the finest ingredients to create a variety of
+          breads, pastries, and cakes that are sure to delight your taste buds.
+        </p>
+        <div class="special-offer">
+          <p><strong>Special Offer:</strong> Get 10% off your first order!</p>
+        </div>
+      </article>
+
+      <!-- Menu article -->
+      <article id="menu" class="article">
+        <h2 class="article-title">Our Menu</h2>
+        <ul>
+          <li><strong>Breads:</strong> Sourdough, Baguette, Multigrain</li>
+          <li><strong>Pastries:</strong> Croissants, Muffins, Danish</li>
+          <li>
+            <strong>Cakes:</strong> Chocolate Cake, Cheesecake, Red Velvet
+          </li>
+        </ul>
+        <p>We also offer gluten-free and vegan options!</p>
+      </article>
+
+      <!-- Contact article -->
+      <article id="contact" class="article">
+        <h2 class="article-title">Contact Us</h2>
+        <p>Address: 123 Mayakus Town, Kenya</p>
+        <p>Phone: +254721690636</p>
+        <p>
+          Email: <a href="ndanumulatya7@gmail.com">ndanumulatya7@gmail.com</a>
+        </p>
+      </article>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="footer">
+      <p>&copy; 2024 Fay's Bakery. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
